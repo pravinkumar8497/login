@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Substance W00 Medium";
+  src: url("login.ttf") format("truetype");
+}
+
+body {
+    background-color:#d5e5fe;
+    font-family: "Substance W00 Medium";
+    padding : 8.98% 22.5% 6.7% 22.5%;
+}
+.logincontent {
+    background-color:#d5e5fe;
+    width : 100%;
+    height : 100%;
+    box-shadow: 8px 8px 8px -3px rgba(188,206,236,1);
+    border-radius: 2.5% 2.5% 2.5% 2.5%;
+}
+.loginleftcontent {
+     float: left;
+     background-color: #1f7dff;
+     border-radius: 2.5% 0 0 2.5%; 
+     width:54.3%; 
+     height: 100%; 
+}
+.loginrightcontent {
+    font-family: "Substance W00 Medium";
+    background-color: white;
+    border-radius: 0 2.5% 2.5% 0;
+    float: right;
+    width:45.7%;
+    overflow: auto;
+    height: 100%;
+}
+.loginimage {
+    width:100%;
+    height:100%;
+    border-radius: 3% 0 0 3%; 
+}
+.backlink {
+    margin-top: 5.9%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.backlinkimage {
+    width:8.5%;
+    height:3.7%;
+}
+.note {
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 170%;
+
+}
+.textbox {
+    margin-top: 11.2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height:11.9%;
+    color: #A4A5A4;
+
+}
+.textbox label {
+    font-size: 0.75rem;
+    margin-bottom: 2%;
+    font-weight: lighter;
+}
+.usernametextbox {
+    width: 100%;
+    height:60%;
+}
+.remember {
+   margin-top: 5%;
+   float: left;
+   font-size: 75%;
+   position: relative;
+   cursor: pointer;
+}
+.forget {
+   margin-top: 5%;
+   float: right;
+   font-weight: lighter;
+   font-size: 75%;
+   color: #056dff;
+   cursor: pointer;
+}
+.forget:hover {
+   text-decoration:underline;
+}
+.login {
+    margin-top : 11%;
+    margin-left: 9.5%;
+    margin-right: 10%;
+    border-radius: 7px;
+    color: #A4A5A4;
+}
+.login > button {
+    width: 100%;
+    height: 9%;
+    background-color: #056dff;
+    border:black;
+    outline:none;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 6px 6px 3px -3px rgba(188,206,236,1);
+}
+.signup {
+    background-color: white;
+    padding: 5% 0 0 28%;
+    font-size: 75%;
+
+}
+.signup > label > a {
+    color: #056dff;
+    cursor:pointer;
+    padding: 0 0 0 5%;
+    font-size: 95%;
+}
+.logo {
+    margin-top: 13%;
+    margin-left: 9%;
+    margin-right: 10%;
+    padding: 0 0 0 20%;
+
+}
+.logo i {
+   opacity: 0.5;
+   margin-left: 8%;
+   cursor: pointer;
+
+}
+.logo img {
+   opacity: 0.5;
+   width: 6.8%;
+   margin-left: 6%;
+   cursor: pointer;
+}
+input {
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:1px solid #f3f3f3;
+    outline: none;
+}
+input:focus {
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:1px solid #00d37f;
+}
+::placeholder {
+  color: #d6d6d6;
+}
+.remember span {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+.remember span:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 4px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 2px;
+  transform: rotate(-45deg);
+  width: 6px;
+}
+.remember input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.remember input[type="checkbox"]:checked + span {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+.remember input[type="checkbox"]:checked + span:after {
+  opacity: 1;
+}
